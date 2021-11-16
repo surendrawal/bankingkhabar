@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+html {
+  font-size: 10px;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 0.7rem;
+  }
+}
+
+body {
+  font-family: "Mukta", sans-serif;
+}
+
+#loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  border-left: 16px solid pink;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+#main {
+  display: none;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+.container {
+  max-width: 1300px !important;
+}
+
+.bg-light1,
+footer {
+  background: #32549A !important;
+}
+
+.nav-item a:hover {
+  background: #FF0000;
+}
+
+li {
+  list-style: none;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-size: 1.9rem;
+  padding: 10px 18px !important;
+}
+
+.navbar-toggler-icon {
+  width: 30px;
+  height: 20px;
+  background-color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  background: #FF0000;
+}
+
+.color-primary {
+  font-size: 5rem;
+  color: #E83636;
+}
+
+.img-70 {
+  width: 70%;
+}
+
+.main-news,
+.m-r-news,
+.interview-head,
+.i-head,
+.l-finance-head,
+.b-head,
+.c-head,
+.i-n-head,
+.t-head,
+.r-head,
+.b-culture {
+  background: #CCCCCC;
+  position: relative;
+}
+
+.main-news a,
+.m-r-news a,
+.interview-head a,
+.i-head a,
+.l-finance-head a,
+.b-head a,
+.c-head a,
+.i-n-head a,
+.t-head a,
+.r-head a,
+.b-culture a {
+  color: #23527C;
+}
+
+.red {
+  position: absolute;
+  background: #FF0000;
+  width: 5px;
+  height: 100%;
+  top: 0;
+}
+
+.my-news a {
+  color: #23527C;
+  cursor: pointer;
+}
+
+.my-news a:hover,
+.banking-news h1:hover,
+.special-news h1:hover {
+  color: #FF0000 !important;
+}
+
+.n-details {
+  font-size: 1.9rem;
+}
+
+.img-special {
+  height: 250px;
+  width: 100%;
+}
+
+.m-right {
+  position: relative;
+}
+
+.news-img:hover img,
+.abc:hover,
+.ss:hover {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.insurance img,
+.economic img,
+.share img,
+.finance img,
+.l-f-img img,
+.banking img,
+.cooperative img,
+.international img,
+.tech img,
+.report img {
+  width: 100%;
+  height: 300px;
+}
+
+footer p,
+footer i {
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.facebook,
+.google,
+.twitter,
+.youtube {
+  padding: 8px 11px;
+  border-radius: 50%;
+  background: #1d1d1d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.facebook:hover,
+.youtube:hover,
+.twitter:hover,
+.google:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  background: #32549A;
+}
+
+.copyright {
+  background: #283d68;
+}
+
+.go-to-top {
+  position: relative;
+}
+
+.go-top i {
+  background: #a84545;
+  position: absolute;
+  padding: 20px;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 50%;
+  display: block;
+  position: fixed;
+}
+
+.is-fadeIn {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-animation: down 1s linear 1;
+          animation: down 1s linear 1;
+  z-index: 99;
+}
+
+@-webkit-keyframes down {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+
+@keyframes down {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+/*# sourceMappingURL=style.css.map */
